@@ -18,7 +18,7 @@ const mentorshipServices = [
       "Q&A session"
     ],
     icon: "🤝",
-    link: "https://topmate.io/vydyas/53230" // Replace with your Calendly link
+    link: "https://topmate.io/amitsharma2748/53230" // Replace with your Calendly link
   },
   {
     title: "Resume Review",
@@ -32,7 +32,7 @@ const mentorshipServices = [
       "Written feedback"
     ],
     icon: "📝",
-    link: "https://topmate.io/vydyas/53231" // Replace with your form link
+    link: "https://topmate.io/amitsharma2748/53231" // Replace with your form link
   },
   {
     title: "Career Guidance",
@@ -46,7 +46,7 @@ const mentorshipServices = [
       "Industry trends"
     ],
     icon: "🎯",
-    link: "https://topmate.io/vydyas/53229" // Replace with your Calendly link
+    link: "https://topmate.io/amitsharma2748/53229" // Replace with your Calendly link
   },
   // {
   //   title: "Referral Service",

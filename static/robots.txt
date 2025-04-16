@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vydyas.github.io/sitemap.xml 
+Sitemap: https://amitsharma2748.github.io/sitemap.xml 

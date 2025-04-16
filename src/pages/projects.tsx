@@ -36,8 +36,8 @@ const projects = [
     description: 'Personal portfolio website built with Docusaurus and React, featuring dark mode, animations, and responsive design.',
     image: '/img/projects/portfolio.png', // Will fallback to gradient if image doesn't exist
     tech: ['React', 'TypeScript', 'Docusaurus', 'Framer Motion'],
-    githubUrl: 'https://github.com/amitsharma2748/vydyas.github.io',
-    liveUrl: 'https://vydyas.github.io',
+    githubUrl: 'https://github.com/amitsharma2748/amitsharma2748.github.io',
+    liveUrl: 'https://amitsharma2748.github.io',
     featured: true
   },
   {

@@ -26,7 +26,7 @@ export default function SEO({
     "Technical Mentor"
   ],
   image = "https://avatars.githubusercontent.com/u/97985931?s=30&v=4", // Add your profile image
-  url = "https://vydyas.github.io", // Replace with your domain
+  url = "https://amitsharma2748.github.io", // Replace with your domain
 }: SEOProps) {
   const metaDescription = description;
   const metaTitle = title;

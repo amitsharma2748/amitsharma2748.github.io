@@ -105,8 +105,8 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
   <a href="https://www.linkedin.com/in/amit-sharma-071654158/" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Amitcse" height="30" width="40" />
   </a>
-  <a href="https://twitter.com/vydyas" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="vydyas" height="30" width="40" />
+  <a href="https://twitter.com/amitsharma2748" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="amitsharma2748" height="30" width="40" />
   </a>
   <a href="https://medium.com/@Amitcse" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@Amitcse" height="30" width="40" />
@@ -120,7 +120,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 </p>
 
 <p align="center">
-  <a href="https://vydyas.github.io">Portfolio</a> •
+  <a href="https://amitsharma2748.github.io">Portfolio</a> •
   <a href="https://www.linkedin.com/in/amit-sharma-071654158/">LinkedIn</a> •
-  <a href="https://twitter.com/vydyas">Twitter</a>
+  <a href="https://twitter.com/amitsharma2748">Twitter</a>
 </p>

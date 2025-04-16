@@ -30,7 +30,7 @@ export default function GitHubGraph() {
   useEffect(() => {
     const fetchContributions = async () => {
       try {
-        const response = await fetch('https://github-contributions-api.jogruber.de/v4/vydyas?y=last&private=true');
+        const response = await fetch('https://github-contributions-api.jogruber.de/v4/amitsharma2748?y=last&private=true');
         const jsonData: GitHubResponse = await response.json();
         
         if (jsonData && Array.isArray(jsonData.contributions)) {

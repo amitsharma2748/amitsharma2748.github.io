@@ -99,16 +99,16 @@ export const chatResponses: Record<string, ChatResponse> = {
   <li>Referral if qualified</li>
 </ul>
 
-<p><a href="https://topmate.io/vydyas" target="_blank" class="book-link">Book a session here →</a></p>`
+<p><a href="https://topmate.io/amitsharma2748" target="_blank" class="book-link">Book a session here →</a></p>`
   },
   "booking": {
     keywords: ["book", "schedule", "appointment", "session", "meet", "call"],
     response: `<p>You can book a mentorship session with me through Topmate:</p>
 
 <ul class="booking-links">
-  <li>1:1 Meeting (30 mins): <a href="https://topmate.io/vydyas/53230" target="_blank" class="book-link">Book Now →</a></li>
-  <li>Resume Review: <a href="https://topmate.io/vydyas/53231" target="_blank" class="book-link">Book Now →</a></li>
-  <li>Career Guidance (45 mins): <a href="https://topmate.io/vydyas/53229" target="_blank" class="book-link">Book Now →</a></li>
+  <li>1:1 Meeting (30 mins): <a href="https://topmate.io/amitsharma2748/53230" target="_blank" class="book-link">Book Now →</a></li>
+  <li>Resume Review: <a href="https://topmate.io/amitsharma2748/53231" target="_blank" class="book-link">Book Now →</a></li>
+  <li>Career Guidance (45 mins): <a href="https://topmate.io/amitsharma2748/53229" target="_blank" class="book-link">Book Now →</a></li>
 </ul>
 
 <p>Choose the session that best fits your needs and schedule a time that works for you.</p>`
@@ -124,7 +124,7 @@ export const chatResponses: Record<string, ChatResponse> = {
   <li>Referral Service: <em>Case by case basis</em></li>
 </ul>
 
-<p><a href="https://topmate.io/vydyas" target="_blank" class="book-link">Book a session here →</a></p>`
+<p><a href="https://topmate.io/amitsharma2748" target="_blank" class="book-link">Book a session here →</a></p>`
   },
   "referral": {
     keywords: ["refer", "referral", "company", "job", "opportunity"],
