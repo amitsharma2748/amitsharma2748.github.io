@@ -60,7 +60,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### 👨‍💻 About Me
 
-- 🔭 I'm currently working on **Lightning Design System at Salesforce**
+- 🔭 I'm currently working on **EHR System at Expedium**
 
 - 🌱 I'm passionate about **Frontend Architecture, Design Systems, and Developer Experience**
 
@@ -121,6 +121,5 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 <p align="center">
   <a href="https://amitsharma2748.github.io">Portfolio</a> •
-  <a href="https://www.linkedin.com/in/amit-sharma-071654158/">LinkedIn</a> •
-  <a href="https://twitter.com/amitsharma2748">Twitter</a>
+  <a href="https://www.linkedin.com/in/amit-sharma-071654158/">LinkedIn</a> • 
 </p>
