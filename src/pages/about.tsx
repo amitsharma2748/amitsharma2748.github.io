@@ -47,7 +47,7 @@ export default function About(): JSX.Element {
               <h1 className={styles.aboutTitle}>About Me</h1>
               <div className={styles.aboutContent}>
                 <p className={styles.aboutDescription}>
-                  Hi! I'm a Senior Software Engineer with over 8 years of experience in building scalable web applications. 
+                  Hi! I'm a Software Engineer with over 4 years of experience in building scalable web applications. 
                   Currently working at Salesforce, where I focus on creating enterprise-level UI components and improving developer experience.
                 </p>
                 <p className={styles.aboutDescription}>

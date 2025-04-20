@@ -139,9 +139,11 @@ function MainSection() {
               {startTyping && (
                 <TypeAnimation
                   sequence={[
-                    'Senior Software Engineer',
+                    'Software Engineer',
                     2000,
                     'Frontend Developer',
+                    2000,
+                    'React Developer',
                     2000,
                     'UI/UX Enthusiast',
                     2000,
@@ -164,7 +166,7 @@ function MainSection() {
           >
             <ul className={styles.briefList}>
               <li>
-                Senior Software Engineer at <a href="https://www.expedium.net/" target="_blank" rel="noopener noreferrer" className={styles.expediumLink}>Expedium</a>.
+                Software Engineer at <a href="https://www.expedium.net/" target="_blank" rel="noopener noreferrer" className={styles.expediumLink}>Expedium</a>.
               </li>
               <li>
                 Building <a href="https://www.expedium.net/office-ehr.php" target="_blank" rel="noopener noreferrer" className={styles.expediumLink}>expEDIum Office EHR</a>, 

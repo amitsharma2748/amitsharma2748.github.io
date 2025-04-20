@@ -18,6 +18,7 @@ export default function SEO({
     "React Developer",
     "Node.js Developer",
     "Software Engineer",
+    "Senior Software Engineer",
     "Web Developer",
     "JavaScript Developer",
     "TypeScript",

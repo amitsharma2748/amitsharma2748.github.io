@@ -4,6 +4,7 @@ import { useLocation } from '@docusaurus/router';
 import styles from './styles.module.css';
 import DecodingText from '../DecodingText';
 import HangingMonkey from '../HangingMonkey';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const socialLinks = [
   {
@@ -41,11 +42,11 @@ export default function Header() {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
   const [copiedEmail, setCopiedEmail] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+  const dropdownRef = useRef(null);
 
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsSocialDropdownOpen(false);
       }
     }
@@ -56,7 +57,7 @@ export default function Header() {
     };
   }, []);
 
-  const isActive = (path: string) => {
+  const isActive = (path) => {
     if (path === '/' && location.pathname === '/') return true;
     if (path !== '/' && location.pathname.startsWith(path)) return true;
     return false;
@@ -64,12 +65,10 @@ export default function Header() {
 
   const navigation = [
     { title: 'Home', to: '/', emoji: '🏠' },
-    // { title: 'Projects', to: '/projects', emoji: '' },
-    // { title: 'Mentorship', to: '/mentorship', emoji: '' },
-    { title: 'Resume', to: 'https://www.simpleresu.me', emoji: '' }
+    { title: 'Resume', to: '/pdf/Amit_Resume.pdf', emoji: '', download: true }
   ];
 
-  const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleEmailClick = (e) => {
     e.preventDefault();
     const email = 'sharma670amit@gmail.com';
     navigator.clipboard.writeText(email).then(() => {
@@ -94,31 +93,52 @@ export default function Header() {
         </button>
 
         <div className={`${styles.menuItems} ${isMenuOpen ? styles.active : ''}`}>
-          {navigation.map((item, index) => (
-            <Link 
-              key={item.to}
-              to={item.to}
-              onClick={() => setIsMenuOpen(false)}
-              className={isActive(item.to) ? styles.activeLink : ''}
-              target={item.to.startsWith('http') ? '_blank' : undefined}
-              rel={item.to.startsWith('http') ? 'noopener noreferrer' : undefined}
-            >
-              <span className={styles.emoji}>{item.emoji}&nbsp;</span>
-              {isHomePage ? (
-                <DecodingText 
-                  text={item.title}
-                  delay={800 + (index * 200)}
-                  duration={2000}
-                />
-              ) : (
-                item.title
-              )}
-              {item.to.startsWith('http') && (
-                <svg className={styles.externalIcon} viewBox="0 0 24 24" width="14" height="14">
-                  <path fill="currentColor" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
-                </svg>
-              )}
-            </Link>
+        {navigation.map((item, index) => (
+            item.download ? (
+              <a 
+                key={item.to}
+                href={useBaseUrl(item.to)}
+                download
+                onClick={() => setIsMenuOpen(false)}
+                className={isActive(item.to) ? styles.activeLink : ''}
+              >
+                <span className={styles.emoji}>{item.emoji} </span>
+                {isHomePage ? (
+                  <DecodingText 
+                    text={item.title}
+                    delay={800 + (index * 200)}
+                    duration={2000}
+                  />
+                ) : (
+                  item.title
+                )}
+              </a>
+            ) : (
+              <Link 
+                key={item.to}
+                to={item.to}
+                onClick={() => setIsMenuOpen(false)}
+                className={isActive(item.to) ? styles.activeLink : ''}
+                target={item.to.startsWith('http') ? '_blank' : undefined}
+                rel={item.to.startsWith('http') ? 'noopener noreferrer' : undefined}
+              >
+                <span className={styles.emoji}>{item.emoji} </span>
+                {isHomePage ? (
+                  <DecodingText 
+                    text={item.title}
+                    delay={800 + (index * 200)}
+                    duration={2000}
+                  />
+                ) : (
+                  item.title
+                )}
+                {item.to.startsWith('http') && (
+                  <svg className={styles.externalIcon} viewBox="0 0 24 24" width="14" height="14">
+                    <path fill="currentColor" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                  </svg>
+                )}
+              </Link>
+            )
           ))}
         </div>
 
@@ -158,4 +178,4 @@ export default function Header() {
       </nav>
     </header>
   );
-} 
+}

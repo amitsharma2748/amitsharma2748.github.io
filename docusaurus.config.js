@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Amit Sharma',
-  tagline: 'Senior Front End Developer | Full Stack Web Developer',
+  tagline: 'Front End Developer | Full Stack Web Developer',
   url: 'https://amitsharma2748.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
